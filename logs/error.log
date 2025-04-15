@@ -1,0 +1,11 @@
+2025/04/15 09:17:47 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:17:56 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:18:01 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:18:06 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:18:11 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:18:17 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:18:29 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:18:40 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:18:57 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/04/15 09:19:31 [error] 25#25: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
+2025/04/15 09:19:34 [error] 25#25: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
