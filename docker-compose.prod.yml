@@ -1,10 +1,6 @@
-
-version: '3'
-
 services:
   server:
-    # build: ./server
-    # To replace with the correct path of your server image
+    container_name: server-prod
     image: lemonwoman/wns-deploy-server
     command: sh -c "npm run build && npm run prod"
     expose:
@@ -15,8 +11,7 @@ services:
     depends_on:
       - mongodb
   client:
-    # build: ./client
-    # To replace with the correct path of your client image
+    container_name: client-prod
     image: lemonwoman/wns-deploy-client
     command: sh -c "npm run build"
     volumes:
@@ -24,8 +19,10 @@ services:
     environment:
       - NODE_ENV=production  
   mongodb:
+    container_name: mongodb-prod
     image: mongo:4.4.9
   nginx:
+    container_name: nginx-prod
     image: nginx:1.21.3
     depends_on:
       - server
