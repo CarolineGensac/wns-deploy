@@ -14,7 +14,7 @@ function Wilder({ city, name }: WilderProps) {
       <h3>{name}</h3>
       <h4>City</h4>
       <p>{city}</p>
-      <p> oula blabla BLABLA BLABAKMFDPIGHNFKGNbddgbg</p>
+      <p> oula blabla BLABLA BLABAKMFDPIGHNFKGNbddgbg JHDGFHJKHJ?NDVSFGHJKH?NBVCX</p>
     </Card>
   );
 }
